@@ -52,8 +52,6 @@ pipeline {
 	                echo 'Testing..the workflow...'
 	            }
 	        }
-	
-
 	         // Deploy Stages
 	        stage('Deploy to UAT') {
 	            steps {
