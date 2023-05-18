@@ -11,6 +11,7 @@ pipeline {
 	        UIPATH_ORCH_LOGICAL_NAME = "inetumdigitalconsulting"
 	        UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
 	        UIPATH_ORCH_FOLDER_NAME = "Shared"
+			
 	    }
 	
 
