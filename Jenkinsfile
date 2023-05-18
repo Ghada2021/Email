@@ -13,8 +13,6 @@ pipeline {
 	        UIPATH_ORCH_FOLDER_NAME = "Shared"
 			
 	    }
-	
-
 	    stages {
 	
 
@@ -52,7 +50,7 @@ pipeline {
 	                echo 'Testing..the workflow...'
 	            }
 	        }
-	         // Deploy Stages
+	         // Deploy Stages TO ORCHESTRATOR
 	        stage('Deploy to UAT') {
 	            steps {
 	                echo "Deploying ${BRANCH_NAME} to UAT "
